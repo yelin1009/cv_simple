@@ -1,0 +1,104 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+/* universal code to remove margin & padding */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+
+body {
+    font-family: 'Lora', serif;
+}
+
+hr {
+    width: 800px;
+    margin: 60px auto;
+}
+
+/* header */
+
+header, footer {
+    text-align: center;
+    background-color: #14213d;
+    color: white;
+    height: 100px;
+    padding: 20px 0;
+}
+
+header h1 {
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+/* Intro Section */
+
+#intro {
+    margin: 20px auto;
+    padding: 30px;
+    width: 600px;
+    text-align:center;
+}
+
+#intro h2 {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+#intro p {
+    text-align: left;
+}
+
+#intro > img {
+    width: 450px;
+}
+
+ul {
+    display: table;
+    margin: 10px auto;
+}
+
+/* About Me */
+
+#about-me {
+    margin: 20px auto;
+    width: 600px;
+    text-align: left;
+}
+
+#about-me h2 {
+    text-align: center;
+}
+
+#about-me p {
+    margin: 10px 0;
+}
+
+/* Contact Me */
+
+#contact-me {
+    margin: 20px auto 50px;
+    text-align: center;
+    width: 600px;
+}
+
+#contact-me p {
+    text-align: left;
+    margin: 20px 0;
+
+}
+
+.mapouter {
+    margin: 30px auto;z
+}
+
+ol {
+    display: table;
+    margin: 10px 0;
+    text-align: left;
+}
