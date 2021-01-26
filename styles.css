@@ -1,27 +1,42 @@
+/* font */
+
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+
+/* universal code to remove margin & padding */
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 
   }
+
+
 body {
     font-family: 'Lora', serif;
 }
 
+hr {
+    width: 800px;
+    margin: 60px auto;
+}
+
+/* header */
 
 header, footer {
     text-align: center;
     background-color: #14213d;
     color: white;
-    padding: 20px 0px;
+    height: 100px;
+    padding: 20px 0;
 }
 
 header h1 {
     letter-spacing: 10px;
     margin-bottom: 10px;
 }
+
+/* Intro Section */
 
 #intro {
     margin: 20px auto;
@@ -32,13 +47,14 @@ header h1 {
 
 #intro h2 {
     margin: 10px 0;
+    font-size: 30px;
 }
 
 #intro p {
     text-align: left;
 }
 
-main section > img {
+#intro > img {
     width: 450px;
 }
 
@@ -46,6 +62,8 @@ ul {
     display: table;
     margin: 10px auto;
 }
+
+/* About Me */
 
 #about-me {
     margin: 20px auto;
@@ -61,13 +79,10 @@ ul {
     margin: 10px 0;
 }
 
-hr {
-    width: 800px;
-    margin: 60px auto;
-}
+/* Contact Me */
 
 #contact-me {
-    margin: 20px auto;
+    margin: 20px auto 50px;
     text-align: center;
     width: 600px;
 }
@@ -79,5 +94,11 @@ hr {
 }
 
 .mapouter {
-    margin: 30px auto;
+    margin: 30px auto;z
+}
+
+ol {
+    display: table;
+    margin: 10px 0;
+    text-align: left;
 }
