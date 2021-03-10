@@ -21,6 +21,20 @@ hr {
     margin: 60px auto;
 }
 
+img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
 /* header */
 
 header, footer {
@@ -31,6 +45,7 @@ header, footer {
     padding: 20px 0;
 }
 
+
 header h1 {
     letter-spacing: 10px;
     margin-bottom: 10px;
@@ -40,10 +55,12 @@ header h1 {
 
 #intro {
     margin: 20px auto;
-    padding: 30px;
-    width: 600px;
-    text-align:center;
+    padding: 30px 300px;
+    text-align: center;
+    
 }
+
+
 
 #intro h2 {
     margin: 10px 0;
@@ -54,8 +71,8 @@ header h1 {
     text-align: left;
 }
 
-#intro > img {
-    width: 450px;
+.default {
+    width: 100%;
 }
 
 ul {
@@ -66,14 +83,20 @@ ul {
 /* About Me */
 
 #about-me {
-    margin: 20px auto;
-    width: 600px;
-    text-align: left;
+    display: block;
+    margin: 20px 0;
+
+    padding: 50px 150px;
+    background-color: #457b9d;
+    color: white;
 }
 
-#about-me h2 {
-    text-align: center;
+
+#about-me img {
+    width: 60%;
 }
+
+
 
 #about-me p {
     margin: 10px 0;
@@ -101,4 +124,15 @@ ol {
     display: table;
     margin: 10px 0;
     text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    flex: 1;
+    margin: 40px;
 }
